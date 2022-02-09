@@ -12,6 +12,6 @@ jobs:
           fetch-depth: 0
 
       - name: Run Checkov
-        uses: bridgecrewio/checkov-action@v12.1244.0
+        uses: bridgecrewio/checkov-action@v12.1246.0
         with:
           config_file: checkov.yaml
